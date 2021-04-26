@@ -1,0 +1,1 @@
+A user can travel from the homepage to a Adoption page to find available pets option, then find one specific pet picture he likes, then find more detail informationa about the pet, then submitting the asking form to contact the organization

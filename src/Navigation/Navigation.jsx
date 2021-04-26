@@ -140,20 +140,21 @@ const Navigation = () => {
                     <Link to="/ContactUS">Contact Us</Link>
                 </nav>
                 <div className={styles.claim}>
-                    ©2020 NEU Web Design Team 3: Pets Adoption
+                    ©Pets Adoption
                     <br/>
-                    Team Member: Yali Sun, Cong Zhao, Zixuan Xiao and Yan Lei
+                    Editor: Phoebe
                 </div>
             </div>
         </Router>
     )
 }
 
-
 const externalContent = {
     Project_Name:"Pets Adoption",
-    Team: "Team3",
-    Team_Member: "Cong Zhao, Zixuan Xiao, Yan Lei, Yali Sun"
+    Course: "INFO6150",
+    Editor: "Phoebe"
 };
+
+
 
 export default Navigation;
