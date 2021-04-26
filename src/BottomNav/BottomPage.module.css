@@ -1,0 +1,45 @@
+.container{
+    color: #69647b;
+}
+
+.container header{
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 1rem;
+}
+
+.container li{
+    margin: 0rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.link{
+    color: #2544ff;
+}
+
+
+.question{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.container li strong{
+    margin-left: 0rem;
+    color: #69647b;
+    font-weight: bold;
+}
+
+@media(min-width: 600px){
+    .container header{
+        font-size:2rem;
+    }
+    .container li{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .container li strong{
+        font-size: 1.5rem;
+    }
+}

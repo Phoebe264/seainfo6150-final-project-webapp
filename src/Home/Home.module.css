@@ -1,0 +1,64 @@
+.container{
+    color: #69647b;
+    width: auto;
+    text-align: center;
+}
+.img{
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.container header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.processDiv{
+    border:solid 2px;
+}
+
+.processDiv header{
+    margin-top: 1rem;
+}
+
+.processDiv ul{
+    margin: 0.5rem;
+}
+
+.processDiv li{
+    margin: 0.5rem;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+}
+
+.processDiv li strong{
+    color: #69647b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media(min-width: 600px) {
+    .img{
+        height: 30rem;
+    }
+
+    .container header{
+        margin-bottom: 1.5rem;
+    }
+    .processDiv ul{
+        margin: 1rem;
+    }
+    .processDiv li {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .processDiv li strong{
+        font-size: 1.5rem;
+    }
+
+}

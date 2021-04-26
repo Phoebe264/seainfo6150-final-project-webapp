@@ -1,0 +1,91 @@
+.container {
+    padding: 1rem;
+    align-items: center;
+        display: grid;
+}
+
+.container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:0px;
+    list-style-type: none;
+}
+
+.contactInfo ul{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contactInfo li{
+    padding-bottom: 1rem;
+}
+
+.contactInfo strong{
+    color: #69647b;
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.contactInfo p{
+    color: #69647b;
+    margin: 0px;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.ContactUsImage{
+    border: 5px solid #CAE1FF;
+    margin-top:5px;
+    margin-right:20px;
+    width: 400px;
+    height: auto;
+    float:right;
+}
+
+.contactInfo{
+    margin-left:0px;
+}
+
+.container header{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #69647b;
+    margin-bottom:10px;
+    font-family: Helvetica, Sans-Serif;
+}
+
+@media(max-width: 700px){
+    .container ul{
+             grid-template-columns: 1fr;
+         }
+    .container li{
+            text-align: center;
+        }
+    .ContactUsImage{
+        float:none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: auto;
+    }
+    .contactInfo p{
+    text-align: center;
+    }
+    .container header{
+        font-size: 1.5rem;
+        text-align: center;
+        }
+    .contactInfo p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .contactInfo strong{
+        font-size: 1.3rem;
+    }
+}

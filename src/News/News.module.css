@@ -1,0 +1,21 @@
+.newsul{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.newsul li{
+    padding-left: 1px;
+    padding-right: 1px;
+    list-style-type: none;
+    margin: 5px;
+    padding-bottom: 0rem;
+}
+
+@media (max-width: 700px) {
+    .newsul li{
+        padding-bottom: 1rem;
+    }
+}
+

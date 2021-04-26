@@ -1,0 +1,58 @@
+.container{
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: 0 10px 12px 0 dimgray;
+    text-align: center;
+    padding: 5%;
+    height: auto;
+    width: 200px;
+}
+
+.container a{
+    color: #69647b;
+    text-decoration: none;
+}
+
+.img{
+    margin-top: 10px;
+    border: 5px solid #CAE1FF;
+    width: 180px;
+    height: 120px;
+}
+.petName{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.petName:hover{
+    color: #a96a50;
+}
+
+.summary{
+    margin:5px;
+    font-size:1.1rem;
+    color: #69647b;
+}
+
+@media(min-width:960px) {
+    .container{
+        height: 320px;
+        width: 280px;
+    }
+    .petName{
+        font-size: 1.5rem;
+    }
+    .summary{
+        font-size: 1.2rem;
+    }
+    .img{
+        width: 270px;
+        height: 200px;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
